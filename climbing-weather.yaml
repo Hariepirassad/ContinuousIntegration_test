@@ -48,7 +48,7 @@ paths:
 
   /yosemite:
     get:
-      summary: Retrieve Yosemite weather test
+      summary: Retrieve Yosemite weather
       description: Retrieve Yosemite weather description
       operationId: yosemiteGet
       tags:
@@ -59,7 +59,7 @@ paths:
 
   /tahoe:
     get:
-      summary: Retrieve Tahoe weather test
+      summary: Retrieve Tahoe weather
       description: Retrieve Tahoe weather description
       operationId: tahoeGet
       tags:

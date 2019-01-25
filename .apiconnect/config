@@ -1,7 +1,15 @@
-catalog: >-
-  apic-catalog://eu.apiconnect.ibmcloud.com/orgs/hariepirassadarounassalameibmcom-dev/catalogs/sb
+catalog: 'apic-catalog://192.168.225.100/orgs/myfirstorganisation/catalogs/sb'
 eu.apiconnect.ibmcloud.com.meta:
   formFactor: BLUEMIX_PUBLIC
+  serverCapabilities:
+    authTypes:
+      - basic
+      - token
+  toolkit:
+    version_recommended: 2.1.30
+    version_minimum: 2.1.30
+192.168.225.100.meta:
+  formFactor: ON_PREMISES
   serverCapabilities:
     authTypes:
       - basic
